@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CRM Freelancer</title>
+
+  <!-- Bootstrap -->
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- Seu CSS/SASS compilado -->
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-light">
+
+  <!-- Header -->
+
+  <header class="bg-dark text-white py-3 shadow-sm">
+    <div class="container-fluid">
+
+  <div class="d-flex justify-content-between align-items-center">
+
+    <h1 class="h4 m-0">
+      CRM Freelancer
+    </h1>
+
+    <span class="badge text-bg-secondary p-2">
+      João Freelancer
+    </span>
+
+  </div>
+
+</div>
+
+  </header>
+
+  <!--dashboard-->
+
+<section class="dashboard">
+<div class="stat-card">
+    <h3>Clientes</h3>
+    <p>12</p>
+</div>
+
+<div class="stat-card">
+    <h3>Projetos Ativos</h3>
+    <p>4</p>
+</div>
+
+<div class="stat-card">
+    <h3>Receita Prevista</h3>
+    <p>R$ 5.400</p>
+</div>
+
+</section>
+
+  <!-- Conteúdo -->
+
+  <main class="container py-4">
+<!-- Botão -->
+
+<div class="mb-4">
+
+  <button
+    class="btn btn-primary">
+
+    <i class="bi bi-plus-lg"></i>
+    Novo Projeto
+
+  </button>
+
+</div>
+
+<!-- Coluna -->
+
+<div class="row">
+
+  <div class="col-md-4">
+
+    <div class="bg-body-secondary rounded p-3">
+
+      <h2 class="h6 fw-bold mb-3">
+        Projetos
+      </h2>
+
+      <!-- Card -->
+
+      <div class="card shadow-sm">
+
+        <div class="card-body">
+
+          <div
+            class="d-flex justify-content-between align-items-start">
+
+            <h3 class="h6 mb-0">
+              Academia Alpha
+            </h3>
+
+            <button
+              class="btn btn-sm btn-outline-secondary">
+
+              <i class="bi bi-pencil"></i>
+
+            </button>
+
+          </div>
+
+          <p class="text-muted mt-2 mb-1">
+            Landing Page
+          </p>
+
+          <p class="small mb-3">
+            Página para captar novos alunos.
+          </p>
+
+          <span
+            class="badge text-bg-success">
+
+            R$ 800
+
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+  </main>
+
+
+  <style>
+
+/* DASHBOARD */
+
+.dashboard{
+    display:flex;
+    gap:15px;
+    padding:20px;
+}
+
+.stat-card{
+    background:white;
+    flex:1;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+
+.stat-card h3{
+    color:#626f86;
+    font-size:14px;
+}
+
+.stat-card p{
+    font-size:28px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+  </style>
+</body>
+</html>
