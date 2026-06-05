@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    input{
+        margin-bottom: 3%;
+    }
+    .form-label{
+        margin-top: 1.5%;
+    }
+
+/* DASHBOARD */
+
+.dashboard{
+    display:flex;
+    gap:15px;
+    padding:20px;
+}
+
+.stat-card{
+    background:white;
+    flex:1;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+
+.stat-card h3{
+    color:#626f86;
+    font-size:14px;
+}
+
+.stat-card p{
+    font-size:28px;
+    font-weight:bold;
+    margin-top:10px;
+}
